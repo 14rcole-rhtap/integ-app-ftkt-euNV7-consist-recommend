@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-tlkx
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/rycole-appstudio/integration1-fmgj-tenant/integ-app-ftkt/hacbs-test-project-tlkx@sha256:0e48c46f9724fdc83e31bd367a580acca4d8377b44bb6930c6d62428ab48be30
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
